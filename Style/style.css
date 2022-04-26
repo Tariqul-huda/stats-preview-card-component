@@ -1,0 +1,106 @@
+:root{
+ --color-background: hsl(233, 47%, 7%);
+--color--card--background:hsl(244, 38%, 16%);
+--color--header:hsl(277, 64%, 61%);
+--color-heading: hsl(0, 0%, 100%);
+--color-paragraph:hsla(0, 0%, 100%, 0.75);
+--color-stat:hsla(0, 0%, 100%, 0.6);
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--color-background);
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color:var(--color-paragraph)
+}
+.container{
+    background-color: var(--color--card--background);
+    height: 700px;
+    width:326px;
+    margin:90px auto;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.img-desktop{
+    background-image: url(../images/image-header-desktop.jpg);
+    background-color: var(--color--header);
+    background-blend-mode: multiply;
+    background-size: cover;
+    height: 241px;
+    width:326px;
+}
+.container__article{
+    width: 265px;
+    margin: 40px auto;
+    text-align: center;
+}
+.container__header{
+    font-weight: 700;
+    font-size: 26px;
+    color:var(--color--heading)
+}
+.container__header--purple{
+    color:var(--color--header)
+}
+.container__rating{
+    margin-top: 47px;
+}
+.container__rating__paragraph{
+    text-transform: uppercase;
+    color:var(--color-stat);
+    font-size: 10px;
+    letter-spacing: 2px;
+    margin-top: 26px;
+}
+.container__rating__paragraph--bold{
+    font-size: initial;
+    letter-spacing: normal;
+    color:var(--color-heading);
+    font-weight: 700;
+}
+@media screen and (min-width:1000px) {
+    .container{
+        margin: 117px auto;
+        width:1050px;
+        height:448px;
+    }
+    .container__article{
+        text-align: left;
+        width:381px;
+    }
+    .container__header{
+        font-size: 30px;
+    }
+    .container__rating__paragraph{
+        margin-right: 70px;
+        line-height: 25px;
+    }
+    .container__paragraph{
+        font-size: 16px;
+        line-height: 25px;
+    }
+    .flex{
+        display: flex;
+    }
+    .flex-row{
+        flex-direction: row-reverse;
+
+    }
+    .img-desktop{
+        width:545px;
+        height:448px;
+    }
+    .flex-column{
+        flex-direction: row;
+    }
+    .container__rating__paragraph--bold{
+        text-transform: none;
+        font-size: 20px;
+    }
+
+
+    
+}

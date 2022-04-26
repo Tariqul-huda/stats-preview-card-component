@@ -5,7 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <!-- CSS link  -->
+ <link rel="stylesheet" href="Style/style.css"> 
+ <!-- Font  -->
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap" rel="stylesheet">
   <title>Frontend Mentor | Stats preview card component</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -16,18 +21,25 @@
 </head>
 <body>
 
-  Get insights that help your business grow.
-
-  Discover the benefits of data analytics and make better decisions regarding revenue, customer 
-  experience, and overall efficiency.
-
-  10k+ companies
-  314 templates
-  12m+ queries
+  <main class="flex flex-row container">
+    <div class="img-desktop"></div>
+    <article class="container__article">
+      <h3 class="container__header">Get <span class="container__header--purple">insights</span> that help your business grow.</h3>
+      <p class="container__paragraph">
+        Discover the benefits of data analytics and make better decisions regarding revenue, customer
+        experience, and overall efficiency.
+      </p>
+      <div class="flex flex-column container__rating">
+        <div class="container__rating__paragraph"><div class="container__rating__paragraph--bold">10k+</div> companies</div>
+        <div class="container__rating__paragraph"><div class="container__rating__paragraph--bold">314</div> templates</div>
+        <div class="container__rating__paragraph"><div class="container__rating__paragraph--bold">12M+</div> queries</div>
+      </div>
+    </article>
+  </main>
 
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="https://www.frontendmentor.io/profile/tariqul-huda">Tariqul Huda</a>.
   </div>
 </body>
 </html>
