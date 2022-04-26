@@ -28,7 +28,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://tariqul-huda.github.io/stats-preview-card-component/)
+- Live Site URL: [Click Here for live site](https://tariqul-huda.github.io/stats-preview-card-component/)
 
 ## My process
 
@@ -40,5 +40,5 @@ Users should be able to:
 
 
 ## Author
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/tariqul-huda)
+- Frontend Mentor - [@tariqul-huda](https://www.frontendmentor.io/profile/tariqul-huda)
 
